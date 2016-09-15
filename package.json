@@ -1,0 +1,25 @@
+{
+  "name": "sidescroll-portfolio",
+  "version": "1.0.0",
+  "description": "A side-scroller web based game displaying my skills and experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify index.js -o ./bundle.js -t [ babelify --presets [ es2015 ] ] -v",
+    "start": "budo --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troy-lamerton/sidescroll-portfolio.git"
+  },
+  "keywords": [],
+  "author": "troy-lamerton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troy-lamerton/sidescroll-portfolio/issues"
+  },
+  "homepage": "https://github.com/troy-lamerton/sidescroll-portfolio#readme",
+  "dependencies": {
+    "budo": "^9.1.0"
+  }
+}
